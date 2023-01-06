@@ -1,1 +1,80 @@
+.body{
+    margin: 10px;
+    padding: 0;
+}
 
+.cotainer{
+    background-color: rgb(120, 238, 136);
+    font-size: xx-large;
+    border-radius: 10px;
+}
+
+.sections{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 25px;
+    gap: 50px;
+    background-color: rgb(226, 129, 230);
+    border-radius: 10px;
+}
+.sections>div{
+    background-color: white;
+    border-radius: 10px;
+    min-height: 300px;
+}
+.sections>div>h3>input{
+    align-items: center;
+    margin-left: 20px;
+    text-align: center;
+    font-size:x-large ;
+    border-radius: 10px;
+    border-color:  blue;
+    border-width: 5px;
+}
+.sections>div>h3>{
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    
+}
+.sections>div>h2{
+    color: blue;
+    background: rgb(98, 235, 116);
+    margin-top: 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.btn{
+    font-size: x-large;
+    color: blue;
+    border-radius: 10px;
+    background: rgb(238, 8, 8);
+    cursor: pointer;
+    margin: 10px;
+}
+#Newtask{
+    display: none;
+}
+#Newtask>div>span{
+    color: red;
+}
+.box{
+    font-size: x-large;
+}
+.remove{
+    color: red;
+    margin-left: 30px;
+
+}
+.hold{
+    border: solid red;
+}
+
+#Newtask>div>input{
+    font-size: x-large;
+    min-height: auto;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
