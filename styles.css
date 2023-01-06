@@ -10,21 +10,24 @@
 }
 
 .sections{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
     padding: 25px;
     gap: 50px;
-    background-color: rgb(226, 129, 230);
+    background-color: rgb(244, 119, 248);
     border-radius: 10px;
+    align-self: auto;
+
+    
 }
 .sections>div{
-    background-color: white;
+    background-color: rgb(240, 176, 157);
     border-radius: 10px;
-    min-height: 300px;
+    height: auto;
+    width: auto;
+
 }
 .sections>div>h3>input{
-    align-items: center;
-    margin-left: 20px;
+   
     text-align: center;
     font-size:x-large ;
     border-radius: 10px;
@@ -44,6 +47,7 @@
     border-radius: 10px;
     text-align: center;
     font-size: 50px;
+    
 }
 .btn{
     font-size: x-large;
