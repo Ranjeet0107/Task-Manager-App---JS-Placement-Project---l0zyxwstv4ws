@@ -10,12 +10,12 @@
 }
 
 .sections{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     padding: 25px;
     gap: 50px;
     background-color: rgb(244, 119, 248);
     border-radius: 10px;
-    align-self: auto;
 
     
 }
