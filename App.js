@@ -126,8 +126,8 @@ class UI{
             document.querySelector('.start').appendChild(tableRow);
         }else if(address.labels === "process"){
             document.querySelector('.process').appendChild(tableRow);
-        }else if(address.labels === "reviwe"){
-            document.querySelector('.reviwe').appendChild(tableRow);
+        }else if(address.labels === "review"){
+            document.querySelector('.review').appendChild(tableRow);
         }else{
             document.querySelector('.done').appendChild(tableRow);
         }
