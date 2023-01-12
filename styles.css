@@ -296,7 +296,7 @@ button{
     align-content: space-between;
     justify-content: space-between;
 }
-.done , .start , .process , .reviwe {
+.done , .start , .process , .review {
     background-color:#fa8e3f;
     padding: 2px;
     min-width: 16rem;
@@ -308,7 +308,7 @@ button{
     opacity: 0.5;
 }
 
-.done , .start , .process , .reviwe {
+.done , .start , .process , .review {
     padding: 2px;
     min-height: 300px;
     min-width: 16rem;
@@ -317,7 +317,7 @@ button{
     flex-direction: column;
     align-items: center;
 }
-.done h2 , .start h2 , .process h2, .reviwe h2 {
+.done h2 , .start h2 , .process h2, .review h2 {
       margin-bottom: 10px;
       margin-top: 5px;
 }
@@ -330,7 +330,7 @@ background-color: #FFB6C1;
 .process{
 background-color: #FFA07A;
 }
-.reviwe{
+.review{
 background-color: #D3D3D3;
 }
 
