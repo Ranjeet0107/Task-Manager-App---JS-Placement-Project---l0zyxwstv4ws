@@ -131,8 +131,6 @@ class UI{
         }else{
             document.querySelector('.done').appendChild(tableRow);
         }
-
-
     }
 
     static showModalData(id){
@@ -286,8 +284,6 @@ function getFormData(){
         addrName = form.addr_ing_name.value;
         inputValidStatus[0] = true;
     }
-
-
 
     if(!(form.street_addr.value.trim().length > 0)){
         addErrMsg(form.street_addr);
